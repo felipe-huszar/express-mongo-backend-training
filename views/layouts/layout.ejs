@@ -6,11 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>    
   </head>
-  <body>
-    Before
-    <br />
-	  <%- body %>
-    <br />
-    After
+  <body>    
+    <%- include('../partials/header.ejs') %>
+    <%- include('../partials/errorMessage.ejs') %>
+	  <%- body %>        
   </body>
 </html>
